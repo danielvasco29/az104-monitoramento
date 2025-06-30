@@ -31,9 +31,9 @@ Este projeto demonstra como configurar monitoramento, criar alertas e consultar 
 AzureActivity
 | where ResourceProvider == "Microsoft.Compute"
 | where OperationNameValue == "Microsoft.Compute/virtualMachines/delete"
-| project TimeGenerated, Caller, ResourceGroup, Resource
+| project TimeGenerated, Caller, ResourceGroup, Resource  
 
-
+  
 
 
 
