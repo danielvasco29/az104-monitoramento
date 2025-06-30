@@ -26,17 +26,11 @@ Este projeto demonstra como configurar monitoramento, criar alertas e consultar 
 - [Guia GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Guia Rápido do GitHub](https://docs.github.com/pt/get-started/quickstart)
 
-## 📝 Exemplos de Consultas KQL
+## 🧩 Exemplos de Consultas KQL
+
 ```kusto
 AzureActivity
 | where ResourceProvider == "Microsoft.Compute"
 | where OperationNameValue == "Microsoft.Compute/virtualMachines/delete"
-| project TimeGenerated, Caller, ResourceGroup, Resource  
+| project TimeGenerated, Caller, ResourceGroup, Resource
 
-  
-
-
-
-##
-Autor
-Daniel Vasconcelos
