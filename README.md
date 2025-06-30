@@ -34,7 +34,9 @@ AzureActivity
 | project TimeGenerated, Caller, ResourceGroup, Resource
 
 
+
+
+
+##
 Autor
 Daniel Vasconcelos
-
-
