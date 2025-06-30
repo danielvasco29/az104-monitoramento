@@ -26,8 +26,6 @@ Este projeto demonstra como configurar monitoramento, criar alertas e consultar 
 - [Guia GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Guia Rápido do GitHub](https://docs.github.com/pt/get-started/quickstart)
 
-
-
 ## 📝 Exemplos de Consultas KQL
 ```kusto
 AzureActivity
@@ -35,13 +33,8 @@ AzureActivity
 | where OperationNameValue == "Microsoft.Compute/virtualMachines/delete"
 | project TimeGenerated, Caller, ResourceGroup, Resource
 
-## 📚 Links Úteis
-
-- [Azure Monitor – Visão Geral](https://docs.microsoft.com/pt-br/azure/azure-monitor/overview)
-- [Configurar o Monitoramento de Máquinas Virtuais](https://learn.microsoft.com/pt-br/azure/azure-monitor/vm/vminsights-enable-overview)
-- [Documentação do GitHub](https://docs.github.com/pt)
-- [Guia GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Guia Rápido do GitHub](https://docs.github.com/pt/get-started/quickstart)
 
 Autor
 Daniel Vasconcelos
+
+
